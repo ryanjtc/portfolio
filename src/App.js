@@ -1,25 +1,24 @@
+import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Header from './components/Header/Header';
-import {Route, Routes} from "react-router-dom";
-import NavBar from "./components/NavBar/NavBar";
-import Home from "./Pages/Home/Home";
-import PageNotFound from "./Pages/PageNotFound";
-import Projects from "./Pages/Projects/Projects";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import Links from "./components/LinksSection/Links";
 
 function App() {
-  return (
-    <div className="App">
-        <Header/>
-        <NavBar/>
-        <Routes>
-            <Route path={'/'} element={ <Home/> }></Route>
-            <Route path={'/projects'} element={ <Projects/> }></Route>
-
-
-            <Route path={'*'} element={ <PageNotFound/> }></Route>
-        </Routes>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <Hero/>
+            <Projects/>
+            <Links/>
+            <Contact/>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
