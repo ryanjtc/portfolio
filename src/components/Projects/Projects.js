@@ -13,7 +13,7 @@ const Projects = () => {
         <div>
             <section id="projects" className="py-5">
                 <Container>
-                    <h1 className="text-center mb-4 display-6">Projects</h1>
+                    <h1 className="text-center mb-4 display-4">Projects</h1>
                     <Row>
                         <Col xs={xs_num} sm={sm_num} md={md_num} lg={lg_num} xl={xl_num} className="mb-4">
                             <Card className={'card shadow-lg'}>

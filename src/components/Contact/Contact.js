@@ -6,7 +6,7 @@ const Contact = () => {
         <div>
             <section id="contact" className="py-5">
                 <Container>
-                    <h2 className="text-center mb-4 display-5">Contact</h2>
+                    <h2 className="text-center mb-4 display-6">Contact</h2>
                     <Row className="justify-content-center">
                         <Col md={8}>
                             <Form className={'text-left'}>
@@ -17,7 +17,7 @@ const Contact = () => {
                                         </Form.Group>
                                     </Col>
                                     <Col md={6}>
-                                        <Form.Group controlId="formBasicEmail">
+                                        <Form.Group className={'mb-4'} controlId="formBasicEmail">
                                             <Form.Control type="email" placeholder="Enter email" />
                                         </Form.Group>
                                     </Col>
