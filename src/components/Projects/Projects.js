@@ -16,33 +16,46 @@ const Projects = () => {
                     <h1 className="text-center mb-4 display-6">Projects</h1>
                     <Row>
                         <Col xs={xs_num} sm={sm_num} md={md_num} lg={lg_num} xl={xl_num} className="mb-4">
-                            <Card>
+                            <Card className={'card shadow-lg'}>
                                 <Card.Img src={image_link}/>
                                 <Card.Body>
                                     <Card.Title>Quiz Builder</Card.Title>
-                                    <Card.Text>Create custom quizzes and share it with your friends.</Card.Text>
+                                    <Card.Text>Create custom quizzes and share them with your friends to play.</Card.Text>
+                                    <ul className="styled-list">
+                                        <li>React</li>
+                                        <li>SCSS</li>
+                                    </ul>
                                     <Button>Demo</Button>
                                     <Button style={{backgroundColor: "black", color: "white"}} className={'m-2'}>GitHub</Button>
                                 </Card.Body>
                             </Card>
+
                         </Col>
                         <Col xs={xs_num} sm={sm_num} md={md_num} lg={lg_num} xl={xl_num} className="mb-4">
-                            <Card>
+                            <Card className={'card shadow-lg'}>
                                 <Card.Img src={image_link}/>
                                 <Card.Body>
                                     <Card.Title>Task Manager</Card.Title>
                                     <Card.Text>Create a list of tasks and mark them as they are completed.</Card.Text>
+                                    <ul className="styled-list">
+                                        <li>React</li>
+                                        <li>SCSS</li>
+                                    </ul>
                                     <Button>Demo</Button>
                                     <Button style={{backgroundColor: "black", color: "white"}} className={'m-2'}>GitHub</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
                         <Col xs={xs_num} sm={sm_num} md={md_num} lg={lg_num} xl={xl_num} className="mb-4">
-                            <Card>
+                            <Card className={'card shadow-lg'}>
                                 <Card.Img src={image_link}/>
                                 <Card.Body>
                                     <Card.Title>HR Dashboard</Card.Title>
                                     <Card.Text>A way for HR Admins to keep track of employee information.</Card.Text>
+                                    <ul className="styled-list">
+                                        <li>React</li>
+                                        <li>SCSS</li>
+                                    </ul>
                                     <Button>Demo</Button>
                                     <Button style={{backgroundColor: "black", color: "white"}} className={'m-2'}>GitHub</Button>
                                 </Card.Body>

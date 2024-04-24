@@ -9,24 +9,21 @@ const Contact = () => {
                     <h2 className="text-center mb-4 display-5">Contact</h2>
                     <Row className="justify-content-center">
                         <Col md={8}>
-                            <Form>
+                            <Form className={'text-left'}>
                                 <Row>
                                     <Col md={6}>
-                                        <Form.Group controlId="formBasicName">
-                                            <Form.Label>Name</Form.Label>
+                                        <Form.Group className={'mb-4'} controlId="formBasicName">
                                             <Form.Control type="text" placeholder="Enter your name" />
                                         </Form.Group>
                                     </Col>
                                     <Col md={6}>
                                         <Form.Group controlId="formBasicEmail">
-                                            <Form.Label>Email address</Form.Label>
                                             <Form.Control type="email" placeholder="Enter email" />
                                         </Form.Group>
                                     </Col>
                                 </Row>
 
                                 <Form.Group controlId="formBasicMessage">
-                                    <Form.Label className={'mt-4'}>Message</Form.Label>
                                     <Form.Control as="textarea" rows={5} placeholder="Enter your message" />
                                 </Form.Group>
 

@@ -7,7 +7,7 @@ const Hero = () => {
             <section id="hero" className="py-5 text-white bg-dark">
                 <Container className={'p-5'}>
                     <h2>Ryan James</h2>
-                    <p>Frontend Web Developer with a strong focus on React!</p>
+                    <p className={'lead'}>Frontend Web Developer with a strong focus on React!</p>
                 </Container>
             </section>
         </div>

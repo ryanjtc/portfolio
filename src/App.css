@@ -1,3 +1,20 @@
 .App {
-  text-align: center;
+  margin: 0 auto;
+  text-align: left;
 }
+
+/*Project Section Lists*/
+.styled-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.styled-list li {
+  display: inline-block;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
