@@ -3,6 +3,7 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 import linkedin_image from "../../Images/Linkedin/LI-In-Bug.png";
 import github_image from "../../Images/Github/github-mark.png";
 
+
 const Header = () => {
     return (
         <div className={'sticky-top text-center'}>

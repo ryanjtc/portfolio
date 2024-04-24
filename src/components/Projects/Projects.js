@@ -1,6 +1,7 @@
 import React from 'react';
 import {Button, Card, Col, Container, Row} from "react-bootstrap";
 
+
 const Projects = () => {
     const xs_num = 12;
     const sm_num = 6;
@@ -29,7 +30,6 @@ const Projects = () => {
                                     <Button style={{backgroundColor: "black", color: "white"}} className={'m-2'}>GitHub</Button>
                                 </Card.Body>
                             </Card>
-
                         </Col>
                         <Col xs={xs_num} sm={sm_num} md={md_num} lg={lg_num} xl={xl_num} className="mb-4">
                             <Card className={'card shadow-lg'}>
