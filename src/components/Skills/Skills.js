@@ -21,7 +21,6 @@ const Skills = () => {
                         <p className={'lead'}>Database Tools:</p>
                         <li>SQL</li>
                         <li>Firebase</li>
-                        <li>PostgreSQL</li>
                         <hr/>
                         <p className={'lead'}>Systems:</p>
                         <li>MacOS</li>
