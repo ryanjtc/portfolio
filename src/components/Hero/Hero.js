@@ -12,7 +12,6 @@ const Hero = () => {
                         building websites & internet applications with React!</p>
                     <Skills/>
                 </Container>
-
             </section>
         </div>
     );

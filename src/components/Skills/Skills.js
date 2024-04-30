@@ -5,7 +5,7 @@ const Skills = () => {
     return (
         <div className={'text-black bg-light'}>
             <section id={'skills'}>
-                <Container className={'p-5'}>
+                <Container className={'p-4'}>
                     <h1>Languages</h1>
                     <p className={'lead'}>
                         Primarily focused on the following developer tools:
