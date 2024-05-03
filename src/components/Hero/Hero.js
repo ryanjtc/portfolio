@@ -5,11 +5,11 @@ import Skills from "../Skills/Skills";
 const Hero = () => {
     return (
         <div>
-            <section id="hero" className="py-5 text-white bg-dark">
-                <Container className={'p-5'}>
+            <section id="hero" className="py-3 text-white bg-dark">
+                <Container className={'p-4'}>
                     <h2>Hi, I'm Ryan!</h2>
-                    <p className={'lead'}>Full Stack Developer with a strong focus on <br/>
-                        building websites & internet applications with React!</p>
+                    <p className={'lead'}>Full Stack Web & Mobile app developer with a focus on using <br/>
+                         React & React Native.</p>
                     <Skills/>
                 </Container>
             </section>

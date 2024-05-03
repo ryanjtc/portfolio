@@ -12,6 +12,7 @@ const Skills = () => {
                     </p>
                     <ul className="styled-list">
                         <li>React JS</li>
+                        <li>React Native</li>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
