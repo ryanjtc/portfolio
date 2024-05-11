@@ -16,7 +16,6 @@ const Header = () => {
                             <Nav.Link href="#hero">Home</Nav.Link>
                             <Nav.Link href="#projects">Projects</Nav.Link>
                             <Nav.Link href="#links">Links</Nav.Link>
-                            {/* <Nav.Link href="#contact">Contact</Nav.Link> */}
                         </Nav>
                         <a href={'https://www.linkedin.com/in/ryan-cunningham-a26618143'} target="_blank" rel="noopener noreferrer">
                             <img src={linkedin_image} alt={'LinkedIn Logo'} className="img-fluid m-2" style={{maxWidth: 35, height: "auto"}} />
