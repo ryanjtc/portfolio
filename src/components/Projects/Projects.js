@@ -1,5 +1,8 @@
 import React from 'react';
 import {Button, Card, Col, Container, Row} from "react-bootstrap";
+import HRGO_IMG from '../../Images/ProjectPhotos/HRGO.png';
+import quizBuilder_IMG from '../../Images/ProjectPhotos/quiz-builder.png';
+import reactTODO_IMG from '../../Images/ProjectPhotos/react-todo.png';
 
 
 const Projects = () => {
@@ -8,7 +11,6 @@ const Projects = () => {
     const md_num = 4;
     const lg_num = 4;
     const xl_num = 4;
-    const image_link = 'https://picsum.photos/800';
 
     return (
         <div>
@@ -18,7 +20,7 @@ const Projects = () => {
                     <Row>
                         <Col xs={xs_num} sm={sm_num} md={md_num} lg={lg_num} xl={xl_num} className="mb-4">
                             <Card className={'card shadow-lg'}>
-                                <Card.Img src={image_link}/>
+                                <Card.Img src={quizBuilder_IMG}/>
                                 <Card.Body>
                                     <Card.Title>Quiz Builder</Card.Title>
                                     <Card.Text>Create custom quizzes and share them with your friends to play.</Card.Text>
@@ -26,14 +28,13 @@ const Projects = () => {
                                         <li>React</li>
                                         <li>SCSS</li>
                                     </ul>
-                                    <Button>Demo</Button>
-                                    <Button style={{backgroundColor: "black", color: "white"}} className={'m-2'}>GitHub</Button>
+                                    <Button style={{backgroundColor: "black", color: "white"}} className={'m-2'} href='https://github.com/ryanjtc/quiz-builder' target='_blank' rel="noopener noreferrer">GitHub</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
                         <Col xs={xs_num} sm={sm_num} md={md_num} lg={lg_num} xl={xl_num} className="mb-4">
                             <Card className={'card shadow-lg'}>
-                                <Card.Img src={image_link}/>
+                                <Card.Img src={reactTODO_IMG}/>
                                 <Card.Body>
                                     <Card.Title>Task Manager</Card.Title>
                                     <Card.Text>Create a list of tasks and mark them as they are completed.</Card.Text>
@@ -41,14 +42,13 @@ const Projects = () => {
                                         <li>React</li>
                                         <li>SCSS</li>
                                     </ul>
-                                    <Button>Demo</Button>
-                                    <Button style={{backgroundColor: "black", color: "white"}} className={'m-2'}>GitHub</Button>
+                                    <Button style={{backgroundColor: "black", color: "white"}} className={'m-2'} href='https://github.com/ryanjtc/react-todo' target='_blank' rel="noopener noreferrer">GitHub</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
                         <Col xs={xs_num} sm={sm_num} md={md_num} lg={lg_num} xl={xl_num} className="mb-4">
                             <Card className={'card shadow-lg'}>
-                                <Card.Img src={image_link}/>
+                                <Card.Img src={HRGO_IMG}/>
                                 <Card.Body>
                                     <Card.Title>HR Dashboard</Card.Title>
                                     <Card.Text>A way for HR Admins to keep track of employee information.</Card.Text>
@@ -56,8 +56,7 @@ const Projects = () => {
                                         <li>React</li>
                                         <li>SCSS</li>
                                     </ul>
-                                    <Button>Demo</Button>
-                                    <Button style={{backgroundColor: "black", color: "white"}} className={'m-2'}>GitHub</Button>
+                                    <Button style={{backgroundColor: "black", color: "white"}} className={'m-2'} href='https://github.com/ryanjtc/hrgo' target='_blank' rel="noopener noreferrer">GitHub</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
