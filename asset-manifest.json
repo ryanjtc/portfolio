@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2a87efba.css",
-    "main.js": "/portfolio/static/js/main.201f1e9d.js",
+    "main.js": "/portfolio/static/js/main.575711f3.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/HRGO.png": "/portfolio/static/media/HRGO.79099eac93dc683cac61.png",
     "static/media/quiz-builder.png": "/portfolio/static/media/quiz-builder.6875c15357a7ca727346.png",
@@ -9,11 +9,11 @@
     "static/media/react-todo.png": "/portfolio/static/media/react-todo.372e1542e9c227e6c4a9.png",
     "index.html": "/portfolio/index.html",
     "main.2a87efba.css.map": "/portfolio/static/css/main.2a87efba.css.map",
-    "main.201f1e9d.js.map": "/portfolio/static/js/main.201f1e9d.js.map",
+    "main.575711f3.js.map": "/portfolio/static/js/main.575711f3.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a87efba.css",
-    "static/js/main.201f1e9d.js"
+    "static/js/main.575711f3.js"
   ]
 }
