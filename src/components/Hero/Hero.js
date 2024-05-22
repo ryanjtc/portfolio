@@ -8,8 +8,8 @@ const Hero = () => {
             <section id="hero" className="py-3 text-white bg-dark">
                 <Container className={'p-4'}>
                     <h2>Hi, I'm Ryan!</h2>
-                    <p className={'lead'}>Full Stack Web Developer with a focus on
-                         developing web & mobile applications with React & React Native.</p>
+                    <p className={'lead'}>Web & Mobile developer with a focus on
+                         developing applications with React & React Native.</p>
                     <Skills/>
                 </Container>
             </section>
